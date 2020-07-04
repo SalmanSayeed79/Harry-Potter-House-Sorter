@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, rgba(94, 93, 93, 0.445), rgba(54, 54, 54, 0.527)), url("./images/bg_3.png");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-transition: all 5s linear;
+  transition: all 5s linear;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.466);
+  width: 40%;
+  min-height: 40vh;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px black;
+          box-shadow: 10px 10px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  color: black;
+  padding: 0 15px;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+  border-radius: 10px;
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+h1:hover {
+  color: white;
+  background-color: black;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+}
+
+#button {
+  background-color: paleturquoise;
+  color: grey;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+  margin-top: 4vh;
+}
+
+#button:hover {
+  color: paleturquoise;
+  background-color: grey;
+}
+
+#button:active {
+  color: white;
+  background-color: pink;
+}
+
+img {
+  display: none;
+  width: 100px;
+}
+
+.show_gry {
+  background-image: linear-gradient(120deg, rgba(94, 93, 93, 0.486), rgba(54, 54, 54, 0.623)), url(./images/gry.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 5s linear;
+  transition: all 5s linear;
+}
+
+.show_sly {
+  background-image: linear-gradient(120deg, rgba(94, 93, 93, 0.582), rgba(54, 54, 54, 0.534)), url(./images/sly.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 5s linear;
+  transition: all 5s linear;
+}
+
+.show_rav {
+  background-image: linear-gradient(120deg, rgba(94, 93, 93, 0.425), rgba(54, 54, 54, 0.425)), url(./images/rav.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 5s linear;
+  transition: all 5s linear;
+}
+
+.show_huf {
+  background-image: linear-gradient(120deg, rgba(94, 93, 93, 0.596), rgba(54, 54, 54, 0.541)), url(./images/huf.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 5s linear;
+  transition: all 5s linear;
+}
+
+.hide_btn {
+  display: none;
+}
+
+@-webkit-keyframes scaleit {
+  to {
+    -webkit-transform: scale(3, 3);
+            transform: scale(3, 3);
+  }
+}
+
+@keyframes scaleit {
+  to {
+    -webkit-transform: scale(3, 3);
+            transform: scale(3, 3);
+  }
+}
+
+.scaleit {
+  -webkit-animation: scaleit 1s ease-in forwards;
+          animation: scaleit 1s ease-in forwards;
+}
+/*# sourceMappingURL=style.css.map */
